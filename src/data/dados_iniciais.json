@@ -1,0 +1,177 @@
+{
+  "categorias": [
+    {
+      "titulo": "Licencitura em Geografia",
+      "cor": "#FF770F",
+      "link_extra": {
+        "text": "Aulas de Geografia",
+        "url": "https://www.youtube.com/channel/UCRB6eX2FUA12UxAcD7hfmoQ"
+      },
+      "videos": [
+        {
+          "titulo": "Geossistemas",
+          "url": "https://www.youtube.com/watch?v=L-e_WVuZrmQ"
+        },
+        {
+          "titulo": "Projeto As Belezas do Brasil",
+          "url": "https://www.youtube.com/watch?v=2P8TAZLTSoA"
+        },
+        {
+          "titulo": "Estatística - Aula 1",
+          "url": "https://www.youtube.com/watch?v=8AFDW3Gq-mU"
+        },
+        {
+          "titulo": "Origens das cidades e urbanização",
+          "url": "https://www.youtube.com/watch?v=P-rO0UF_e8g"
+        },
+        {
+          "titulo": "Geografia da População",
+          "url": "https://www.youtube.com/watch?v=TYntlqbM8qI"
+        }
+      ]
+    },
+    {
+      "titulo": "Viagens pelo Mundo",
+      "link": "https://www.youtube.com/results?search_query=%23PedroPeloMundo",
+      "cor": "#FF770F",
+      "link_extra": {
+        "text": "Pedro Pelo Mundo",
+        "url": "https://www.youtube.com/results?search_query=%23PedroPeloMundo"
+      },
+      "videos": [
+        {
+          "titulo": "Croácia",
+          "url": "https://www.youtube.com/watch?v=NXjlGSWadEg"
+        },
+        {
+          "titulo": "México",
+          "url": "https://www.youtube.com/watch?v=RixbkwxUqbw"
+        },
+        {
+          "titulo": "Etiópia",
+          "url": "https://www.youtube.com/watch?v=nKhcgPfmmyw"
+        },
+        {
+          "titulo": "Colômbia",
+          "url": "https://www.youtube.com/watch?v=D3ptKYHnrTQ"
+        },
+        {
+          "titulo": "Seattle",
+          "url": "https://www.youtube.com/watch?v=s1n_2TeDSic"
+        },
+        {
+          "titulo": "Tóquio",
+          "url": "https://www.youtube.com/watch?v=HqL-RjI2xc8"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
