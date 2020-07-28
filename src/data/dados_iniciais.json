@@ -31,7 +31,29 @@
       ]
     },
     {
-      "titulo": "Viagens pelo Mundo",
+      "titulo": "Vestibular",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Aulões para vestibulandos",
+        "url": "https://www.youtube.com/results?search_query=aulas+geografia"
+      },
+      "videos": [
+        {
+          "titulo": "Recursos Naturais",
+          "url": "https://www.youtube.com/watch?v=vHE5D-lNV3g"
+        },
+        {
+          "titulo": "Cartografia",
+          "url": "https://www.youtube.com/watch?v=kTuh98rQZeo&t=5s"
+        },
+        {
+          "titulo": "Translação e Rotação",
+          "url": "https://www.youtube.com/watch?v=bTutNM9mJRM"
+        }
+      ]
+    },
+    {
+      "titulo": "Viagens",
       "link": "https://www.youtube.com/results?search_query=%23PedroPeloMundo",
       "cor": "#FF770F",
       "link_extra": {
@@ -66,32 +88,6 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
-      "videos": [
-        {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
-        {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
-        {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        }
-      ]
-    },
-    {
       "titulo": "Filmes",
       "cor": "orange",
       "videos": [
@@ -114,11 +110,11 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Geografia",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Estudo da Terra",
+        "url": "https://www.youtube.com/watch?v=vHE5D-lNV3g"
       },
       "videos": [
         {
