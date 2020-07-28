@@ -26,6 +26,10 @@ function App() {
         category={dadosIniciais.categorias[1]}
       />
 
+      <Carousel
+        category={dadosIniciais.categorias[2]}
+      />
+
       <Footer />
 
     </div>
