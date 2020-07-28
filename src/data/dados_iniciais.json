@@ -13,6 +13,10 @@
           "url": "https://www.youtube.com/watch?v=z8ZqFlw6hYg"
         },
         {
+          "titulo": "Bad Brains - Sailin on",
+          "url": "https://www.youtube.com/watch?v=gylw5PZKN1U"
+        },
+        {
           "titulo": "Metallica - Fade to Black",
           "url": "https://www.youtube.com/watch?v=WEQnzs8wl6E"
         },
@@ -32,7 +36,7 @@
     },
     {
       "titulo": "90's",
-      "cor": "#9cd33b",
+      "cor": "#FF770F",
       "videos": [
         {
           "titulo": "Pantera - Walk",
@@ -41,6 +45,14 @@
         {
           "titulo": "Sepultura - Territory",
           "url": "https://www.youtube.com/watch?v=Q_WHGV5bejk"
+        },
+        {
+          "titulo": "Faith No More - Midlife Crisis",
+          "url": "https://www.youtube.com/watch?v=U8b88US-6ts"
+        },
+        {
+          "titulo": "Body Count - The Winner Loses",
+          "url": "https://www.youtube.com/watch?v=mc-dixnIU6A"
         },
         {
           "titulo": "Nirvana - Lithium",
@@ -77,6 +89,10 @@
         {
           "titulo": "Power Trip - Executioner's Tax",
           "url": "https://www.youtube.com/watch?v=FOWf8uqGf8A"
+        },
+        {
+          "titulo": "Blues Pills - Proud Woman",
+          "url": "https://www.youtube.com/watch?v=HekZW4Pbg_I"
         },
         {
           "titulo": "Power Trip - Hornest Nest",

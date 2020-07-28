@@ -12,9 +12,8 @@ function App() {
     <div style={{ background: "#141414" }}>
       <Menu />
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={'Rock e Metal para seus ouvidos'}
+        videoTitle={dadosIniciais.categorias[2].videos[0].titulo}
+        url={dadosIniciais.categorias[2].videos[0].url}
       />
 
       <Carousel
