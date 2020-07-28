@@ -1,141 +1,90 @@
 {
   "categorias": [
     {
-      "titulo": "Licencitura em Geografia",
+      "titulo": "80's",
       "cor": "#FF770F",
-      "link_extra": {
-        "text": "Aulas do Curso de Licenciatura em Geografia",
-        "url": "https://www.youtube.com/channel/UCRB6eX2FUA12UxAcD7hfmoQ"
-      },
       "videos": [
         {
-          "titulo": "Geossistemas",
-          "url": "https://www.youtube.com/watch?v=L-e_WVuZrmQ"
+          "titulo": "Anthrax - Indians",
+          "url": "https://www.youtube.com/watch?v=RzpRU347BDU"
         },
         {
-          "titulo": "Projeto As Belezas do Brasil",
-          "url": "https://www.youtube.com/watch?v=2P8TAZLTSoA"
+          "titulo": "Slayer - Reign in Blood",
+          "url": "https://www.youtube.com/watch?v=z8ZqFlw6hYg"
         },
         {
-          "titulo": "Estatística - Aula 1",
-          "url": "https://www.youtube.com/watch?v=8AFDW3Gq-mU"
+          "titulo": "Metallica - Fade to Black",
+          "url": "https://www.youtube.com/watch?v=WEQnzs8wl6E"
         },
         {
-          "titulo": "Origens das cidades e urbanização",
-          "url": "https://www.youtube.com/watch?v=P-rO0UF_e8g"
+          "titulo": "Ozzy - Mr. Crowley",
+          "url": "https://www.youtube.com/watch?v=G3LvhdFEOqs"
         },
         {
-          "titulo": "Geografia da População",
-          "url": "https://www.youtube.com/watch?v=TYntlqbM8qI"
+          "titulo": "Tankard - Need money for beer",
+          "url": "https://www.youtube.com/watch?v=p5tbtjYh7Bs"
+        },
+        {
+          "titulo": "Destruction - Mad Butcher",
+          "url": "https://www.youtube.com/watch?v=LtaH2yllusU"
         }
       ]
     },
     {
-      "titulo": "Vestibular",
+      "titulo": "90's",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Aulões para vestibulandos",
-        "url": "https://www.youtube.com/results?search_query=aulas+geografia"
-      },
       "videos": [
         {
-          "titulo": "Recursos Naturais",
-          "url": "https://www.youtube.com/watch?v=vHE5D-lNV3g"
+          "titulo": "Pantera - Walk",
+          "url": "https://www.youtube.com/watch?v=AkFqg5wAuFk"
         },
         {
-          "titulo": "Cartografia",
-          "url": "https://www.youtube.com/watch?v=kTuh98rQZeo&t=5s"
+          "titulo": "Sepultura - Territory",
+          "url": "https://www.youtube.com/watch?v=Q_WHGV5bejk"
         },
         {
-          "titulo": "Translação e Rotação",
-          "url": "https://www.youtube.com/watch?v=bTutNM9mJRM"
+          "titulo": "Nirvana - Lithium",
+          "url": "https://www.youtube.com/watch?v=pkcJEvMcnEg"
         }
       ]
     },
     {
-      "titulo": "Viagens",
-      "link": "https://www.youtube.com/results?search_query=%23PedroPeloMundo",
+      "titulo": "2000's",
       "cor": "#FF770F",
-      "link_extra": {
-        "text": "Pedro Pelo Mundo",
-        "url": "https://www.youtube.com/results?search_query=%23PedroPeloMundo"
-      },
       "videos": [
         {
-          "titulo": "Croácia",
-          "url": "https://www.youtube.com/watch?v=NXjlGSWadEg"
+          "titulo": "System of a Down - Toxicity",
+          "url": "https://www.youtube.com/watch?v=iywaBOMvYLI"
         },
         {
-          "titulo": "México",
-          "url": "https://www.youtube.com/watch?v=RixbkwxUqbw"
+          "titulo": "Linkin Park - In the End",
+          "url": "https://www.youtube.com/watch?v=eVTXPUF4Oz4"
         },
         {
-          "titulo": "Etiópia",
-          "url": "https://www.youtube.com/watch?v=nKhcgPfmmyw"
+          "titulo": "White Stripes - Seven Nation Army",
+          "url": "https://www.youtube.com/watch?v=y9ANOzmSKQg"
         },
         {
-          "titulo": "Colômbia",
-          "url": "https://www.youtube.com/watch?v=D3ptKYHnrTQ"
-        },
-        {
-          "titulo": "Seattle",
-          "url": "https://www.youtube.com/watch?v=s1n_2TeDSic"
-        },
-        {
-          "titulo": "Tóquio",
-          "url": "https://www.youtube.com/watch?v=HqL-RjI2xc8"
+          "titulo": "Slipknot - Duality",
+          "url": "https://www.youtube.com/watch?v=6fVE8kSM43I"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "2010's",
+      "cor": "#FF770F",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Power Trip - Executioner's Tax",
+          "url": "https://www.youtube.com/watch?v=FOWf8uqGf8A"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Power Trip - Hornest Nest",
+          "url": "https://www.youtube.com/watch?v=gKQ5STBHgnM"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Geografia",
-      "cor": "red",
-      "link_extra": {
-        "text": "Estudo da Terra",
-        "url": "https://www.youtube.com/watch?v=vHE5D-lNV3g"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Conan - Volt Thrower",
+          "url": "https://www.youtube.com/watch?v=3kY8-Vhiq7w"
         }
       ]
     },
