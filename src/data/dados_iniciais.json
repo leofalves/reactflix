@@ -1,102 +1,138 @@
 {
   "categorias": [
     {
-      "titulo": "80's",
+      "titulo": "Nordeste Brasileiro",
       "cor": "#FF770F",
+      "link_extra": {
+        "text": "Viagens Nacionais é com a CVC",
+        "url": "https://www.youtube.com/user/cvc"
+      },
       "videos": [
         {
-          "titulo": "Anthrax - Indians",
-          "url": "https://www.youtube.com/watch?v=RzpRU347BDU"
+          "titulo": "Fortaleza - CE",
+          "url": "https://www.youtube.com/watch?v=F-OjJaCc4Dk&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=27&t=0s"
         },
         {
-          "titulo": "Slayer - Reign in Blood",
-          "url": "https://www.youtube.com/watch?v=z8ZqFlw6hYg"
+          "titulo": "Salvador - BA",
+          "url": "https://www.youtube.com/watch?v=RwJTISTBgII&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=84&t=0s"
         },
         {
-          "titulo": "Bad Brains - Sailin on",
-          "url": "https://www.youtube.com/watch?v=gylw5PZKN1U"
+          "titulo": "Maceió - AL",
+          "url": "https://www.youtube.com/watch?v=Hv2XCGl6qD8&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=49&t=0s"
         },
         {
-          "titulo": "Metallica - Fade to Black",
-          "url": "https://www.youtube.com/watch?v=WEQnzs8wl6E"
+          "titulo": "João Pessoa - PB",
+          "url": "https://www.youtube.com/watch?v=b4-VqGhgjmU&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=54&t=0s"
         },
         {
-          "titulo": "Ozzy - Mr. Crowley",
-          "url": "https://www.youtube.com/watch?v=G3LvhdFEOqs"
+          "titulo": "Trancoso - BA",
+          "url": "https://www.youtube.com/watch?v=qTcJVA6saXc&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=91&t=0s"
         },
         {
-          "titulo": "Tankard - Need money for beer",
-          "url": "https://www.youtube.com/watch?v=p5tbtjYh7Bs"
+          "titulo": "Natal - RN",
+          "url": "https://www.youtube.com/watch?v=fEprwR1A8_o&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=105&t=0s"
         },
         {
-          "titulo": "Destruction - Mad Butcher",
-          "url": "https://www.youtube.com/watch?v=LtaH2yllusU"
+          "titulo": "São Luís - MA",
+          "url": "https://www.youtube.com/watch?v=MFM_1nyUsR0&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=43&t=0s"
+        },
+        {
+          "titulo": "Porto Seguro - BA",
+          "url": "https://www.youtube.com/watch?v=Cldsy77Bsqw&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=89&t=0s"
+        },
+        {
+          "titulo": "Recife - PE",
+          "url": "https://www.youtube.com/watch?v=Q_0A28c5GOQ&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=109&t=0s"
+        },
+        {
+          "titulo": "Caruaru - PE",
+          "url": "https://www.youtube.com/watch?v=WORSByV_ohc&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=106&t=0s"
         }
       ]
     },
     {
-      "titulo": "90's",
-      "cor": "#FF770F",
+      "titulo": "Sudeste Brasileiro",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Viagens Nacionais é com a CVC",
+        "url": "https://www.youtube.com/user/cvc"
+      },
       "videos": [
         {
-          "titulo": "Pantera - Walk",
-          "url": "https://www.youtube.com/watch?v=AkFqg5wAuFk"
+          "titulo": "Litoral Norte de São Paulo - SP",
+          "url": "https://www.youtube.com/watch?v=OEZ4VmT1F0I&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=6&t=0s"
         },
         {
-          "titulo": "Sepultura - Territory",
-          "url": "https://www.youtube.com/watch?v=Q_WHGV5bejk"
+          "titulo": "Campos do Jordão - SP",
+          "url": "https://www.youtube.com/watch?v=4ylE51PrhnE&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=16&t=0s"
         },
         {
-          "titulo": "Faith No More - Midlife Crisis",
-          "url": "https://www.youtube.com/watch?v=U8b88US-6ts"
+          "titulo": "Rio de Janeiro - RJ",
+          "url": "https://www.youtube.com/watch?v=3QSW2K0ckt8&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=37&t=0s"
         },
         {
-          "titulo": "Body Count - The Winner Loses",
-          "url": "https://www.youtube.com/watch?v=mc-dixnIU6A"
+          "titulo": "Vitória - ES",
+          "url": "https://www.youtube.com/watch?v=w9B8JxBub10&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=55&t=0s"
         },
         {
-          "titulo": "Nirvana - Lithium",
-          "url": "https://www.youtube.com/watch?v=pkcJEvMcnEg"
+          "titulo": "Ouro Preto - MG",
+          "url": "https://www.youtube.com/watch?v=VI-qbK58jp4&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=60&t=0s"
         }
       ]
     },
     {
-      "titulo": "2000's",
-      "cor": "#FF770F",
+      "titulo": "Sul do Brasil",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Viagens Nacionais é com a CVC",
+        "url": "https://www.youtube.com/user/cvc"
+      },
       "videos": [
         {
-          "titulo": "System of a Down - Toxicity",
-          "url": "https://www.youtube.com/watch?v=iywaBOMvYLI"
+          "titulo": "Camburiú - SC",
+          "url": "https://www.youtube.com/watch?v=NIzKf70tfYo&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=80&t=0s"
         },
         {
-          "titulo": "Linkin Park - In the End",
-          "url": "https://www.youtube.com/watch?v=eVTXPUF4Oz4"
+          "titulo": "Florianópolis - SC",
+          "url": "https://www.youtube.com/watch?v=HbdiVfFkbyg&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=79&t=0s"
         },
         {
-          "titulo": "White Stripes - Seven Nation Army",
-          "url": "https://www.youtube.com/watch?v=y9ANOzmSKQg"
+          "titulo": "Bento Gonçalves - RS",
+          "url": "https://www.youtube.com/watch?v=voPMHIgoIlc&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=97&t=0s"
         },
         {
-          "titulo": "Slipknot - Duality",
-          "url": "https://www.youtube.com/watch?v=6fVE8kSM43I"
+          "titulo": "Serra Gaúcha - RS",
+          "url": "https://www.youtube.com/watch?v=y2B9z96UBjA&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=101&t=0s"
+        },
+        {
+          "titulo": "Natal Luz em Gramado - RS",
+          "url": "https://www.youtube.com/watch?v=baOer0n3q3Y&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=117&t=0s"
+        },
+        {
+          "titulo": "Foz do Iguaçu - PR",
+          "url": "https://www.youtube.com/watch?v=YZzJtUk1xdM"
         }
       ]
     },
     {
-      "titulo": "2010's",
-      "cor": "#FF770F",
+      "titulo": "Centro-Oeste Brasileiro",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Viagens Nacionais é com a CVC",
+        "url": "https://www.youtube.com/user/cvc"
+      },
       "videos": [
         {
-          "titulo": "Power Trip - Executioner's Tax",
-          "url": "https://www.youtube.com/watch?v=FOWf8uqGf8A"
+          "titulo": "Brasília - DF",
+          "url": "https://www.youtube.com/watch?v=7H1azJCdUsY&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=20&t=0s"
         },
         {
-          "titulo": "Blues Pills - Proud Woman",
-          "url": "https://www.youtube.com/watch?v=HekZW4Pbg_I"
+          "titulo": "Caldas Novas - GO",
+          "url": "https://www.youtube.com/watch?v=QvYkQDNGKUk&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=67&t=0s"
         },
         {
-          "titulo": "Power Trip - Hornest Nest",
-          "url": "https://www.youtube.com/watch?v=gKQ5STBHgnM"
+          "titulo": "Bonito - MS",
+          "url": "https://www.youtube.com/watch?v=r7Yx1tchpW4&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=68&t=0s"
         },
         {
           "titulo": "Conan - Volt Thrower",
@@ -105,32 +141,32 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Norte do Brasil",
+      "cor": "red",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Viagens Nacionais é com a CVC",
+        "url": "https://www.youtube.com/user/cvc"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Ilha de Marajó - PA",
+          "url": "https://www.youtube.com/watch?v=PgQeJ9NMPIk"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Belém - PA",
+          "url": "https://www.youtube.com/watch?v=m_WPyRmW4-M"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Manaus - AM",
+          "url": "https://www.youtube.com/watch?v=83hhh9CyIus"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Porto Velho - RO",
+          "url": "https://www.youtube.com/watch?v=uqLboa6iWzE"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Boa Vista - RR",
+          "url": "https://www.youtube.com/watch?v=jbkjFixmwzw"
         }
       ]
     }

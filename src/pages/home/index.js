@@ -10,8 +10,8 @@ function Home() {
     <div style={{ background: "#141414" }}>
       <Menu />
       <BannerMain
-        videoTitle={dadosIniciais.categorias[2].videos[0].titulo}
-        url={dadosIniciais.categorias[2].videos[0].url}
+        videoTitle={dadosIniciais.categorias[0].videos[7].titulo}
+        url={dadosIniciais.categorias[0].videos[7].url}
       />
 
       <Carousel
@@ -29,6 +29,10 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[3]}
+      />
+
+      <Carousel
+        category={dadosIniciais.categorias[4]}
       />
 
       <Footer />
