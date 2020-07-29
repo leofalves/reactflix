@@ -19,7 +19,7 @@ function Carousel({
             {categoryTitle}
           </Title>
           {categoryExtraLink &&
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
+            <ExtraLink style={{ color: categoryColor || 'red' }} href={categoryExtraLink.url} target="_blank">
               {categoryExtraLink.text}
             </ExtraLink>
           }
