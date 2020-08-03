@@ -37,7 +37,7 @@ function CadastroCategoria() {
     // OU
     // fetch('http://localhost:3001/categorias').then(async (RespostaDoServer) => {const RespostaConvertida = await RespostaDoServer.json(); console.log(RespostaConvertida); });
 
-    const URL = 'http://localhost:3001/categorias';
+    const URL = 'http://localhost:8080/categorias';
     fetch(URL)
       .then(async (RespostaDoServer) => {
         const RespostaConvertida = await RespostaDoServer.json();
