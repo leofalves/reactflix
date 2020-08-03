@@ -37,7 +37,10 @@ function CadastroCategoria() {
     // OU
     // fetch('http://localhost:3001/categorias').then(async (RespostaDoServer) => {const RespostaConvertida = await RespostaDoServer.json(); console.log(RespostaConvertida); });
 
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://leofalves-reactflix.herokuapp.com/categorias';
+
     fetch(URL)
       .then(async (RespostaDoServer) => {
         const RespostaConvertida = await RespostaDoServer.json();
