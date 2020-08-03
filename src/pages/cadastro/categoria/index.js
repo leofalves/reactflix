@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable no-console */
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -30,6 +31,39 @@ function CadastroCategoria() {
     // const { getAttribute, value } = evt.target;
     // setValue(getAttribute('name'), value);
   }
+
+  useEffect(() => {
+    // fetch('http://localhost:3001/categorias').then((RespostaDoServer) => {return RespostaDoServer.json()}).then((RespostaConvertida) => {console.log(RespostaConvertida)});
+    // OU
+    // fetch('http://localhost:3001/categorias').then(async (RespostaDoServer) => {const RespostaConvertida = await RespostaDoServer.json(); console.log(RespostaConvertida); });
+
+    const URL = 'http://localhost:3001/categorias';
+    fetch(URL)
+      .then(async (RespostaDoServer) => {
+        const RespostaConvertida = await RespostaDoServer.json();
+        setCategorias([
+          ...RespostaConvertida,
+        ]);
+      });
+  //     setTimeout(() => {
+  //       setCategorias([
+  //         ...categorias,
+  //         {
+  //           id: 1,
+  //           nome: 'Nordeste Brasileiro',
+  //           descricao: 'Sol e Praia o ano inteiro',
+  //           cor: '#CBD1FF',
+  //         },
+  //         {
+  //           id: 2,
+  //           nome: 'Sul do Brasil',
+  //           descricao: 'Uma Europa ao seu alcance',
+  //           cor: '#CBD1FF',
+  //         },
+  //       ]);
+  //     }, 4 * 1000);
+  },
+  []);
 
   return (
     <PageDefault>
@@ -70,6 +104,9 @@ function CadastroCategoria() {
 
         <Button>Cadastrar</Button>
       </form>
+
+      {categorias.length === 0 && (<div>Loading...</div>
+      )}
       <br />
       <br />
       <ul>

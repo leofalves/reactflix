@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Nordeste Brasileiro",
+            "descricao": "Sol e Praia o ano inteiro",
+            "cor": "#CBD1FF"
+        },
+        {
+            "id": 2,
+            "nome": "Sul do Brasil",
+            "descricao": "Uma Europa ao seu alcance",
+            "cor": "#CBD1FF"
+        }
+    ]
+}
