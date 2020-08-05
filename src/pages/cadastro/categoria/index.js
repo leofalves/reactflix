@@ -1,53 +1,63 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-console */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import './categoria.css';
 
-function CadastroCategoria() {
-  // Valores iniciais para a categoria da tela
-  const valoresIniciais = {
-    nome: '',
-    descricao: '',
-    cor: '',
-  };
-
-  const [categorias, setCategorias] = useState([]);
-  const [categoria, setCategoria] = useState(valoresIniciais);
+// Custom hook
+function useForm(valoresIniciais) {
+  const [values, setValues] = useState(valoresIniciais);
 
   // atualiza a categoria atual com o valor do input
   function setValue(chave, valor) {
-    setCategoria({
-      ...categoria,
+    setValues({
+      ...values,
       [chave]: valor, // nome: 'valor'
     });
   }
 
-  // Captura as mudanças e reflete na categoria
   function handleChange(evt) {
     setValue(evt.target.getAttribute('name'), evt.target.value);
-    // ##### Refactor para não usar evt.target deu ruim
-    // const { getAttribute, value } = evt.target;
-    // setValue(getAttribute('name'), value);
   }
 
-  useEffect(() => {
-    // fetch('http://localhost:3001/categorias').then((RespostaDoServer) => {return RespostaDoServer.json()}).then((RespostaConvertida) => {console.log(RespostaConvertida)});
-    // OU
-    // fetch('http://localhost:3001/categorias').then(async (RespostaDoServer) => {const RespostaConvertida = await RespostaDoServer.json(); console.log(RespostaConvertida); });
+  function clearForm() {
+    setValues(valoresIniciais);
+  }
 
+  return { values, handleChange, clearForm };
+}
+
+
+/// Function principal
+function CadastroCategoria() {
+  const valoresIniciais = {
+    titulo: '',
+    descricao: '',
+    cor: '',
+  };
+
+  const {values, handleChange, clearForm } = useForm(valoresIniciais);
+  const [categorias, setCategorias] = useState([]);
+
+  useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://leofalves-reactflix.herokuapp.com/categorias';
 
-    fetch(URL)
-      .then(async (RespostaDoServer) => {
-        const RespostaConvertida = await RespostaDoServer.json();
-        setCategorias([
-          ...RespostaConvertida,
-        ]);
-      });
+    setTimeout(() => {
+      fetch(URL)
+        .then(async (RespostaDoServer) => {
+          const RespostaConvertida = await RespostaDoServer.json();
+          console.log(RespostaConvertida);
+          setCategorias([
+            ...RespostaConvertida,
+          ]);
+        });
+    }, 2 * 1000);
+
   //     setTimeout(() => {
   //       setCategorias([
   //         ...categorias,
@@ -76,29 +86,29 @@ function CadastroCategoria() {
         evt.preventDefault();
         setCategorias([
           ...categorias,
-          categoria,
+          values,
         ]);
-        setCategoria(valoresIniciais);
+        clearForm();
       }}
       >
         <FormField
-          label="Nome da Categoria"
-          value={categoria.nome}
+          label="Título da Categoria"
+          value={values.titulo}
           onChange={handleChange}
           type="text"
-          name="nome"
+          name="titulo"
         />
 
         <FormField
           label="Descrição da Categoria"
-          value={categoria.descricao}
+          value={values.descricao}
           onChange={handleChange}
           type="textarea"
           name="descricao"
         />
 
         <FormField
-          value={categoria.cor}
+          value={values.cor}
           onChange={handleChange}
           type="color"
           name="cor"
@@ -108,18 +118,19 @@ function CadastroCategoria() {
         <Button>Cadastrar</Button>
       </form>
 
-      {categorias.length === 0 && (<div>Loading...</div>
+      {categorias.length === 0 && (<div className="lds-dual-ring" />
       )}
       <br />
       <br />
       <ul>
         {categorias.map((categoria, idx) => (
-          <li key={`${categoria}${idx}`}>
-            {categoria.nome}
+          <li key={categoria.id}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
-
+      <br />
+      <br />
       <Link to="/cadastro/video">
         Cadastrar Vídeo
       </Link>

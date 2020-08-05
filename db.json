@@ -1,16 +1,49 @@
 {
     "categorias": [
-        {
-            "id": 1,
-            "nome": "Nordeste Brasileiro",
-            "descricao": "Sol e Praia o ano inteiro",
-            "cor": "#CBD1FF"
-        },
-        {
-            "id": 2,
-            "nome": "Sul do Brasil",
-            "descricao": "Uma Europa ao seu alcance",
-            "cor": "#CBD1FF"
+      {
+        "id": 1,
+        "titulo": "Nordeste Brasileiro",
+        "cor": "#FF770F",
+        "link_extra": {
+          "text": "Sol e Praia o ano todo",
+          "url": "https://www.youtube.com/user/cvc"
         }
+      },
+      {
+        "id": 2,
+        "titulo": "Sudeste Brasileiro",
+        "cor": "#6BD1FF",
+        "link_extra": {
+          "text": "Metrópoles, praias, montanhas e parques. Diversão para todos os gostos.",
+          "url": "https://www.youtube.com/user/cvc"
+        }
+      },
+      {
+        "id": 3,
+        "titulo": "Sul do Brasil",
+        "cor": "#00C86F",
+        "link_extra": {
+          "text": "Uma Europa bem perto de você.",
+          "url": "https://www.youtube.com/user/cvc"
+        }
+      },
+      {
+        "id": 4,
+        "titulo": "Centro-Oeste Brasileiro",
+        "cor": "#9cd33b",
+        "link_extra": {
+          "text": "Capital do Brasil, Cachoeiras, Parques e gastronomia variada.",
+          "url": "https://www.youtube.com/user/cvc"
+        }
+      },
+      {
+        "id": 5,
+        "titulo": "Norte do Brasil",
+        "cor": "red",
+        "link_extra": {
+          "text": "Rica Cultura, gastronomia variada. EcoTurismo Sustentável. Preserva a Natureza",
+          "url": "https://www.youtube.com/user/cvc"
+        }
+      }
     ]
-}
+  }
