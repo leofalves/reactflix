@@ -5,33 +5,9 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 import './categoria.css';
 
-// Custom hook
-function useForm(valoresIniciais) {
-  const [values, setValues] = useState(valoresIniciais);
-
-  // atualiza a categoria atual com o valor do input
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-
-  function handleChange(evt) {
-    setValue(evt.target.getAttribute('name'), evt.target.value);
-  }
-
-  function clearForm() {
-    setValues(valoresIniciais);
-  }
-
-  return { values, handleChange, clearForm };
-}
-
-
-/// Function principal
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
@@ -39,7 +15,7 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const {values, handleChange, clearForm } = useForm(valoresIniciais);
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
@@ -47,16 +23,14 @@ function CadastroCategoria() {
       ? 'http://localhost:8080/categorias'
       : 'https://leofalves-reactflix.herokuapp.com/categorias';
 
-    setTimeout(() => {
-      fetch(URL)
-        .then(async (RespostaDoServer) => {
-          const RespostaConvertida = await RespostaDoServer.json();
-          console.log(RespostaConvertida);
-          setCategorias([
-            ...RespostaConvertida,
-          ]);
-        });
-    }, 2 * 1000);
+    fetch(URL)
+      .then(async (RespostaDoServer) => {
+        const RespostaConvertida = await RespostaDoServer.json();
+        console.log(RespostaConvertida);
+        setCategorias([
+          ...RespostaConvertida,
+        ]);
+      });
 
   //     setTimeout(() => {
   //       setCategorias([

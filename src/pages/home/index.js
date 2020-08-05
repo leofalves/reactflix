@@ -5,13 +5,20 @@ import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 import dadosIniciais from '../../data/dados_iniciais.json';
 
+function randomInt(min, max) {
+	return min + Math.floor((max - min) * Math.random());
+};
+
 function Home() {
+  const categoryMainBanner = randomInt(0, 5);
+  const VideoMainBanner = randomInt(0, 3);
+
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: '#141414' }}>
       <Menu />
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[7].titulo}
-        url={dadosIniciais.categorias[0].videos[7].url}
+        videoTitle={dadosIniciais.categorias[categoryMainBanner].videos[VideoMainBanner].titulo}
+        url={dadosIniciais.categorias[categoryMainBanner].videos[VideoMainBanner].url}
       />
 
       <Carousel
