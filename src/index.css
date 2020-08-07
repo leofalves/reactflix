@@ -30,3 +30,12 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+table{
+  border-width: medium;
+  border-color: var(--primary);
+  border: medium;
+  background-color: var(--grayDark);
+  border-spacing: 15px;
+  width: 80%;
+}

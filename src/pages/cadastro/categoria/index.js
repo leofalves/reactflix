@@ -6,13 +6,17 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
-import './categoria.css';
+import '../../../components/loading.css';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
     descricao: '',
     cor: '',
+    link_extra: {
+      text: "",
+      url: ""
+    }
   };
 
   const { values, handleChange, clearForm } = useForm(valoresIniciais);
@@ -26,7 +30,6 @@ function CadastroCategoria() {
     fetch(URL)
       .then(async (RespostaDoServer) => {
         const RespostaConvertida = await RespostaDoServer.json();
-        console.log(RespostaConvertida);
         setCategorias([
           ...RespostaConvertida,
         ]);
@@ -80,6 +83,14 @@ function CadastroCategoria() {
           type="textarea"
           name="descricao"
         />
+        
+        <FormField
+          label="Link Extra"
+          value={values.link_extra.url}
+          onChange={handleChange}
+          type="text"
+          name="link_extra.url"
+        />
 
         <FormField
           value={values.cor}
@@ -96,13 +107,21 @@ function CadastroCategoria() {
       )}
       <br />
       <br />
-      <ul>
+      <table>
+        <thead><th colspan="4">Categorias</th></thead>
+        <thead>
+          <th>Título</th>
+          <th>Cor</th>
+          <th>Link Extra</th>
+        </thead>
         {categorias.map((categoria, idx) => (
-          <li key={categoria.id}>
-            {categoria.titulo}
-          </li>
+          <tr key={categoria.id}>
+            <td>{categoria.titulo}</td>
+            <td>{categoria.cor}</td>
+            <td>{categoria.link_extra.url}</td>
+          </tr>
         ))}
-      </ul>
+      </table>
       <br />
       <br />
       <Link to="/cadastro/video">

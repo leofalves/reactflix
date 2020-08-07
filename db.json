@@ -1,49 +1,231 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Nordeste Brasileiro",
-        "cor": "#FF770F",
-        "link_extra": {
-          "text": "Sol e Praia o ano todo",
-          "url": "https://www.youtube.com/user/cvc"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "Sudeste Brasileiro",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Metrópoles, praias, montanhas e parques. Diversão para todos os gostos.",
-          "url": "https://www.youtube.com/user/cvc"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Sul do Brasil",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Uma Europa bem perto de você.",
-          "url": "https://www.youtube.com/user/cvc"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Centro-Oeste Brasileiro",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Capital do Brasil, Cachoeiras, Parques e gastronomia variada.",
-          "url": "https://www.youtube.com/user/cvc"
-        }
-      },
-      {
-        "id": 5,
-        "titulo": "Norte do Brasil",
-        "cor": "red",
-        "link_extra": {
-          "text": "Rica Cultura, gastronomia variada. EcoTurismo Sustentável. Preserva a Natureza",
-          "url": "https://www.youtube.com/user/cvc"
-        }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Nordeste Brasileiro",
+      "cor": "#FF770F",
+      "link_extra": {
+        "text": "Sol e Praia o ano todo",
+        "url": "https://www.youtube.com/user/cvc"
       }
-    ]
-  }
+    },
+    {
+      "id": 2,
+      "titulo": "Sudeste Brasileiro",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Metrópoles, praias, montanhas e parques. Diversão para todos os gostos.",
+        "url": "https://www.youtube.com/user/cvc"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Sul do Brasil",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Uma Europa bem perto de você.",
+        "url": "https://www.youtube.com/user/cvc"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Centro-Oeste Brasileiro",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Capital do Brasil, Cachoeiras, Parques e gastronomia variada.",
+        "url": "https://www.youtube.com/user/cvc"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Norte do Brasil",
+      "cor": "red",
+      "link_extra": {
+        "text": "Rica Cultura, gastronomia variada. EcoTurismo Sustentável. Preserva a Natureza",
+        "url": "https://www.youtube.com/user/cvc"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Fortaleza - CE",
+      "url": "https://www.youtube.com/watch?v=F-OjJaCc4Dk&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=27&t=0s"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Salvador - BA",
+      "url": "https://www.youtube.com/watch?v=RwJTISTBgII&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=84&t=0s"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Maceió - AL",
+      "url": "https://www.youtube.com/watch?v=Hv2XCGl6qD8&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=49&t=0s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "João Pessoa - PB",
+      "url": "https://www.youtube.com/watch?v=b4-VqGhgjmU&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=54&t=0s"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Trancoso - BA",
+      "url": "https://www.youtube.com/watch?v=qTcJVA6saXc&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=91&t=0s"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Natal - RN",
+      "url": "https://www.youtube.com/watch?v=fEprwR1A8_o&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=105&t=0s"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "São Luís - MA",
+      "url": "https://www.youtube.com/watch?v=MFM_1nyUsR0&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=43&t=0s"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Porto Seguro - BA",
+      "url": "https://www.youtube.com/watch?v=Cldsy77Bsqw&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=89&t=0s"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Recife - PE",
+      "url": "https://www.youtube.com/watch?v=Q_0A28c5GOQ&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=109&t=0s"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "Caruaru - PE",
+      "url": "https://www.youtube.com/watch?v=WORSByV_ohc&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=106&t=0s"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Litoral Norte de São Paulo - SP",
+      "url": "https://www.youtube.com/watch?v=OEZ4VmT1F0I&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=6&t=0s"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Campos do Jordão - SP",
+      "url": "https://www.youtube.com/watch?v=4ylE51PrhnE&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=16&t=0s"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Rio de Janeiro - RJ",
+      "url": "https://www.youtube.com/watch?v=3QSW2K0ckt8&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=37&t=0s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Vitória - ES",
+      "url": "https://www.youtube.com/watch?v=w9B8JxBub10&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=55&t=0s"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Ouro Preto - MG",
+      "url": "https://www.youtube.com/watch?v=VI-qbK58jp4&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=60&t=0s"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Camburiú - SC",
+      "url": "https://www.youtube.com/watch?v=NIzKf70tfYo&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=80&t=0s"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Florianópolis - SC",
+      "url": "https://www.youtube.com/watch?v=HbdiVfFkbyg&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=79&t=0s"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Bento Gonçalves - RS",
+      "url": "https://www.youtube.com/watch?v=voPMHIgoIlc&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=97&t=0s"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Serra Gaúcha - RS",
+      "url": "https://www.youtube.com/watch?v=y2B9z96UBjA&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=101&t=0s"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Natal Luz em Gramado - RS",
+      "url": "https://www.youtube.com/watch?v=baOer0n3q3Y&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=117&t=0s"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Foz do Iguaçu - PR",
+      "url": "https://www.youtube.com/watch?v=YZzJtUk1xdM"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Brasília - DF",
+      "url": "https://www.youtube.com/watch?v=7H1azJCdUsY&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=20&t=0s"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Caldas Novas - GO",
+      "url": "https://www.youtube.com/watch?v=QvYkQDNGKUk&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=67&t=0s"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Bonito - MS",
+      "url": "https://www.youtube.com/watch?v=r7Yx1tchpW4&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=68&t=0s"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Hot Park - GO",
+      "url": "https://www.youtube.com/watch?v=VhsXsfttwXg&list=PLBaBL2FupSbuPRmee42EsFyfBgi7aCo5P&index=64"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Ilha de Marajó - PA",
+      "url": "https://www.youtube.com/watch?v=PgQeJ9NMPIk"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Belém - PA",
+      "url": "https://www.youtube.com/watch?v=m_WPyRmW4-M"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Manaus - AM",
+      "url": "https://www.youtube.com/watch?v=83hhh9CyIus"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Porto Velho - RO",
+      "url": "https://www.youtube.com/watch?v=uqLboa6iWzE"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Boa Vista - RR",
+      "url": "https://www.youtube.com/watch?v=jbkjFixmwzw"
+    }
+  ]
+}

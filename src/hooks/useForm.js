@@ -6,10 +6,21 @@ function useForm(valoresIniciais) {
 
   // atualiza o campo atual do formulário com o valor do input
   function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
+    if(chave === 'link_extra.url') {
+      setValues({
+        ...values,
+        link_extra: {
+          url: valor, 
+        }
+      });
+    }
+    else
+    {
+      setValues({
+        ...values,
+        [chave]: valor, // nome: 'valor'
+      });
+    }
   }
 
   function handleChange(evt) {

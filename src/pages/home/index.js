@@ -1,50 +1,60 @@
-import React from 'react';
-import Menu from '../../components/Menu';
+/* eslint-disable no-trailing-spaces */
+import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
-import dadosIniciais from '../../data/dados_iniciais.json';
+import PageDefault from '../../components/PageDefault';
+import categoriasRepository from '../../repositories/categorias';
+import '../../components/loading.css';
 
 function randomInt(min, max) {
-	return min + Math.floor((max - min) * Math.random());
-};
+  return min + Math.floor((max - min) * Math.random());
+}
 
 function Home() {
   const categoryMainBanner = randomInt(0, 5);
   const VideoMainBanner = randomInt(0, 3);
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
 
   return (
-    <div style={{ background: '#141414' }}>
-      <Menu />
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[categoryMainBanner].videos[VideoMainBanner].titulo}
-        url={dadosIniciais.categorias[categoryMainBanner].videos[VideoMainBanner].url}
-      />
+    <PageDefault paddingAll={0}>
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+      {dadosIniciais.length === 0 && (<div className="lds-dual-ring" />)}
 
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
+      {dadosIniciais.map((categoria, indice) => {       
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[categoryMainBanner].videos[VideoMainBanner].titulo}
+                url={dadosIniciais[categoryMainBanner].videos[VideoMainBanner].url}
+              />
+              <Carousel
+                key={categoria.id}
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
 
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}  
 
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />
-
-      <Footer />
-
-    </div>
+    </PageDefault>
   );
 }
 
