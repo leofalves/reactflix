@@ -1,8 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Este projeto foi publicado no Vercel
+https://reactflix-sandy.vercel.app/
+
+Backend publicado no Heroku
+https://leofalves-reactflix.herokuapp.com/categorias
+
+Libs usadas:
+prop-types
+
+
 ## Available Scripts
 
-In the project directory, you can run:
+### `npm run dev`
+
+Este comando irá startar o servidor Web na porta 3000 e o Json server na porta 8080
 
 ### `npm start`
 
